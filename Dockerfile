@@ -1,4 +1,4 @@
-FROM gradle:6.5-jdk8
+FROM gradle:6.1-jdk8
 
 RUN apt-get update -qm \
   && apt-get install -qy unzip
